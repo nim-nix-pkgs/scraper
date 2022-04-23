@@ -21,6 +21,33 @@
         "type": "github"
       }
     },
+    "github-thisago-findxml": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-findxml-master": "src-findxml-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1648447345,
+        "narHash": "sha256-hPEh2zEHinVsmqy1OYnRlt9XR1XHoinlgcjIi4In8WE=",
+        "owner": "nim-nix-pkgs",
+        "repo": "github-thisago-findxml",
+        "rev": "4ee81a9015c36b8d9a72123458ffe8a9253554b0",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "github-thisago-findxml",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
@@ -35,8 +62,26 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
+        "github-thisago-findxml": "github-thisago-findxml",
         "nixpkgs": "nixpkgs",
         "src-scraper-master": "src-scraper-master"
+      }
+    },
+    "src-findxml-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1634672744,
+        "narHash": "sha256-6c1XThkCWHK8dILHBr8N3/vYbhoRIsF4miPEmPgfA+A=",
+        "owner": "thisago",
+        "repo": "findxml",
+        "rev": "a25992b2d7848c897fdc2c09bc636e922f03a030",
+        "type": "github"
+      },
+      "original": {
+        "owner": "thisago",
+        "ref": "refs/heads/master",
+        "repo": "findxml",
+        "type": "github"
       }
     },
     "src-scraper-master": {
