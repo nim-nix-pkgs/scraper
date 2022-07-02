@@ -21,35 +21,6 @@
         "type": "github"
       }
     },
-    "github-thisago-findxml": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "scraper-master",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "scraper-master",
-          "nixpkgs"
-        ],
-        "src-findxml-master": "src-findxml-master"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1651555491,
-        "narHash": "sha256-jgZ2ViFOaCkAZV+E95uiCrvSdME3ogk+4B3kRuYIB9E=",
-        "owner": "nim-nix-pkgs",
-        "repo": "github-thisago-findxml",
-        "rev": "741837c2fdde3e0e554e34a545f02ecb837981ea",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "github-thisago-findxml",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 0,
@@ -65,70 +36,7 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
-        "nixpkgs": "nixpkgs",
-        "scraper-master": "scraper-master"
-      }
-    },
-    "scraper-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "flakeNimbleLib"
-        ],
-        "github-thisago-findxml": "github-thisago-findxml",
-        "nixpkgs": [
-          "nixpkgs"
-        ],
-        "src-scraper-master": "src-scraper-master"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1656298063,
-        "narHash": "sha256-EiiZC3a49nkRtt28c1Q4RXhOW+6s+QctLkd/enrkY7Y=",
-        "owner": "nim-nix-pkgs",
-        "repo": "scraper",
-        "rev": "add2fbb70f83915d0ba4f25701d39dcbe82297b0",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "scraper",
-        "type": "github"
-      }
-    },
-    "src-findxml-master": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1634672744,
-        "narHash": "sha256-6c1XThkCWHK8dILHBr8N3/vYbhoRIsF4miPEmPgfA+A=",
-        "owner": "thisago",
-        "repo": "findxml",
-        "rev": "a25992b2d7848c897fdc2c09bc636e922f03a030",
-        "type": "github"
-      },
-      "original": {
-        "owner": "thisago",
-        "ref": "refs/heads/master",
-        "repo": "findxml",
-        "type": "github"
-      }
-    },
-    "src-scraper-master": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1638303454,
-        "narHash": "sha256-7T5zPeWW8TL3vISmLDepAxHYs5jRM4Giu0AUApCfuuc=",
-        "owner": "lurlo",
-        "repo": "scraper",
-        "rev": "cc36be481c9ee20aac1d54a964f7c74b8b00fde8",
-        "type": "gitlab"
-      },
-      "original": {
-        "owner": "lurlo",
-        "ref": "refs/heads/master",
-        "repo": "scraper",
-        "type": "gitlab"
+        "nixpkgs": "nixpkgs"
       }
     }
   },
