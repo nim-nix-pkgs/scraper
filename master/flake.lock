@@ -182,11 +182,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1667334508,
-        "narHash": "sha256-JYlvccMf2t8MdqQWTvt0YVpYBAgmpuHMJ+fgiMOHpC0=",
+        "lastModified": 1668748787,
+        "narHash": "sha256-YG8YUmyNusEQX0glcPUz+FbRwlRJAb5NFTxmGWZnJXw=",
         "owner": "nim-nix-pkgs",
         "repo": "github-thisago-findxml",
-        "rev": "a58c4e2808165372d8123f437cf9b5a4c3960170",
+        "rev": "af6b6a1605a6190abfa89d62e27411a60a6cb77c",
         "type": "github"
       },
       "original": {
