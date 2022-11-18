@@ -14,7 +14,7 @@
     {
       "name": "scraper",
       "version": "0.1.0",
-      "author": "Luciano Lorenzo",
+      "author": "Thiago Navarro",
       "desc": "Scraping tools",
       "license": "MIT",
       "skipDirs": [],
